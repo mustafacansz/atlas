@@ -28,7 +28,7 @@ export default function SingleFillingMachine() {
             </div>
           </div>
           <div className="info-strip">
-            <strong>İletişim:</strong> Teknik bilgi ve teklif için <a href="tel:+905300684321">+90 530 068 43 21</a> veya <a href="https://wa.me/905300684321" target="_blank" rel="noopener noreferrer">WhatsApp</a>.
+            <strong>İletişim:</strong> Teknik bilgi ve teklif için <a href="tel:+905300684321" onClick={() => window.gtag_report_conversion('tel:+905300684321')}>+90 530 068 43 21</a> veya <a href="https://wa.me/905300684321" target="_blank" rel="noopener noreferrer" onClick={() => window.gtag_report_conversion('https://wa.me/905300684321')}>WhatsApp</a>.
           </div>
         </div>
       </section>

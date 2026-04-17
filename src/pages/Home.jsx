@@ -234,7 +234,7 @@ export default function Home() {
               <p>Telefon veya WhatsApp üzerinden hızlıca ulaşabilir, ürünlerimiz için teklif ve teknik bilgi alabilirsiniz.</p>
             </div>
             <div className="button-row">
-              <a className="button" href="tel:+905300684321">+90 530 068 43 21</a>
+              <a className="button" href="tel:+905300684321" onClick={() => window.gtag_report_conversion('tel:+905300684321')}>+90 530 068 43 21</a>
               <Link className="button-outline" to="/contact">İletişim Sayfası</Link>
             </div>
           </div>
