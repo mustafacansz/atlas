@@ -1,8 +1,14 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 export default function HygienicCentrifugalPump() {
   return (
     <main>
+      <Helmet>
+        <title>Hijyenik Santrifüj Pompa | Pascal Flow</title>
+        <meta name="description" content="Gıda ve içecek proseslerinde güvenli, verimli ve sürekli akış sağlayan paslanmaz hijyenik santrifüj pompa çözümleri." />
+        <link rel="canonical" href="https://pascalflow.com/hygienic-centrifugal-pump" />
+      </Helmet>
       <section className="section section-top">
         <div className="container">
           <div className="breadcrumb">

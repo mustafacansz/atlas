@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -23,6 +24,11 @@ export default function Home() {
 
   return (
     <main>
+      <Helmet>
+        <title>Pascal Flow | Akış ve Dolum Çözümleri</title>
+        <meta name="description" content="Pascal Flow tekli dolum makineleri ve hijyenik santrifüj pompa çözümleri sunar. Gıda üretim hatları için hijyenik ve güvenilir akış çözümleri." />
+        <link rel="canonical" href="https://pascalflow.com/" />
+      </Helmet>
       <section className="section section-top">
         <div className="container">
           <div className="slider" id="heroSlider">

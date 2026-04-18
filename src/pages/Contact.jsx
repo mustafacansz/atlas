@@ -1,8 +1,14 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 export default function Contact() {
   return (
     <main>
+      <Helmet>
+        <title>İletişim | Pascal Flow</title>
+        <meta name="description" content="Pascal Flow tekli dolum makineleri ve hijyenik santrifüj pompalar için iletişim bilgileri. Teklif ve teknik bilgi almak için bize ulaşın." />
+        <link rel="canonical" href="https://pascalflow.com/contact" />
+      </Helmet>
       <section className="section section-top">
         <div className="container">
           <div className="breadcrumb">

@@ -1,8 +1,14 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 export default function SingleFillingMachine() {
   return (
     <main>
+      <Helmet>
+        <title>Tekli Dolum Makinesi | Pascal Flow</title>
+        <meta name="description" content="Akışkan ürünlerin kontrollü ve güvenilir dolumu için loblu pompa teknolojili, PLC kontrollü, hijyenik tekli dolum makinesi." />
+        <link rel="canonical" href="https://pascalflow.com/single-filling-machine" />
+      </Helmet>
       <section className="section section-top">
         <div className="container">
           <div className="breadcrumb">
