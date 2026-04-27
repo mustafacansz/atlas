@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Google Ads Meta Tags -->
+    <title>Pascal Flow | Akış ve Dolum Çözümleri</title>
+    <meta name="description" content="Pascal Flow tekli dolum makineleri ve hijyenik santrifüj pompa çözümleri sunar." />
+    <meta name="keywords" content="tekli dolum makinesi, hijyenik santrifüj pompa, paslanmaz pompa, gıda pompası, dolum makinası, pascal flow, korkmaz pompa" />
+    <meta name="author" content="Pascal Flow" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pascal Flow | Akış ve Dolum Çözümleri" />
+    <meta property="og:description" content="Tekli dolum makineleri ve hijyenik santrifüj pompalar alanında güvenilir çözümler sunuyoruz." />
+    <meta property="og:url" content="https://pascalflow.com/" />
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18087888772">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18087888772');
+</script>
+
+<!-- Event snippet for Satın alma işlemi conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18087888772/77RzCKPl05scEISP_bBD',
+      'value': 1.0,
+      'currency': 'TRY',
+      'transaction_id': '',
+      'event_callback': callback
+      // 'new_customer': true /* calculate dynamically, populate with true/false */,
+  });
+  return false;
+}
+</script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
