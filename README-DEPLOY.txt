@@ -1,20 +1,22 @@
-PASCAL FLOW - YENİ SEO UYUMLU STATİK HTML YAYIN PAKETİ
+PASCAL FLOW - DÜZELTİLMİŞ YAYIN PAKETİ
 
-1) Bu klasördeki tüm dosyaları hosting ana dizinine yükleyin.
-2) Ana giriş dosyası: index.html
-3) Yayın sonrası şu adresler açılmalı:
-   - https://www.pascalflow.com/
-   - https://www.pascalflow.com/tekli-dolum-makinesi.html
-   - https://www.pascalflow.com/hijyenik-santrifuj-pompa.html
-   - https://www.pascalflow.com/iletisim.html
-   - https://www.pascalflow.com/robots.txt
-   - https://www.pascalflow.com/sitemap.xml
+Bu pakette:
+- Ana sayfadaki açıklama metinlerindeki taslak/teknik ifadeler kaldırıldı.
+- Hizmet verdiğimiz sektörler slider'ına gerçek sektör görselleri eklendi.
+- Teklif talebi butonları korundu.
+- Tüm sayfalar statik HTML/CSS/JS olarak çalışır.
 
-4) Google Search Console'da domain property ekleyin.
-5) Sitemap olarak https://www.pascalflow.com/sitemap.xml gönderin.
-6) URL Inspection ile ana sayfa ve iki ürün sayfası için indeksleme isteği gönderin.
-7) Google Ads açılış sayfaları:
-   - Loblu dolum makinesi reklamları -> /tekli-dolum-makinesi.html
-   - Hijyenik santrifüj pompa reklamları -> /hijyenik-santrifuj-pompa.html
+Deploy notu:
+1) Bu paketin içindeki dosyaları mevcut sitenin kök dizinine yükleyin.
+2) Eski index.html, mobil-onizleme.html ve assets klasöründeki eski sektör görsellerini bununla değiştirin.
+3) Tarayıcı önbelleğini temizleyin / hard refresh yapın (Ctrl+F5).
+4) Eğer CDN veya hosting cache kullanılıyorsa cache temizleyin.
 
-Not: SEO sıralaması garanti edilemez; ancak başlık, meta, içerik, teknik dosyalar, iç link ve mobil tasarım organik görünürlük hedefiyle hazırlanmıştır.
+Ana dosyalar:
+- index.html
+- tekli-dolum-makinesi.html
+- hijyenik-santrifuj-pompa.html
+- iletisim.html
+- assets/
+- robots.txt
+- sitemap.xml
