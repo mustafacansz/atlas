@@ -1,10 +1,22 @@
-PASCAL FLOW - SON REVİZE YAYIN PAKETİ
+PASCAL FLOW - YÜKLEME PAKETİ
 
-Bu paket son isteklerine göre düzenlendi:
-- Sitedeki Loblu Pompalı ifadeleri Lob Pompalı olarak değiştirildi.
-- Ana slider biraz küçültüldü.
-- 5 ml – 5.000 L / PLC Ekran / 316 Paslanmaz kutucukları ilk sliderdan kaldırılıp ikinci slidera taşındı.
-- Datasheet indirme linki assets/datasheet.pdf olarak sadeleştirildi.
-- Assets klasörü tekrar kontrol edilerek görseller ve PDF birlikte eklendi.
+Bu paket statik HTML/CSS/JS sitedir.
 
-Deploy için tüm klasörü kök dizine yükleyin. Özellikle assets klasörünün tamamı güncellenmelidir.
+GitHub/Vercel için doğru yapı:
+index.html
+lob-pompali-dolum-makinesi.html
+hijyenik-santrifuj-pompa.html
+bilgi-merkezi.html
+blog-*.html
+iletisim.html
+robots.txt
+sitemap.xml
+assets/
+
+Önemli: ZIP içindeki klasörün kendisini değil, içindeki dosyaları repo ana dizinine yükleyin. assets klasörünü komple yükleyin.
+
+Kontrol linkleri:
+/assets/hero-slider-ilk-gorsel.jpg
+/assets/tekli-dolum-makinesi.png
+/assets/food-sector-photo.png
+/assets/datasheet.pdf
