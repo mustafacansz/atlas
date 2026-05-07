@@ -27,3 +27,17 @@ SON REVİZE:
 - Önceki 1. slider görseli 2. slider'a taşındı.
 - İletişim sayfasına info@pascalflow.com e-posta adresi eklendi.
 - Yeni görsel dosyası: assets/hero-slider-ilk-gorsel.png
+
+
+JPG FIX:
+- Ana slider ilk görseli JPG formatına çevrildi.
+- HTML artık assets/hero-slider-ilk-gorsel.jpg dosyasını çağırıyor.
+- GitHub assets klasörüne hero-slider-ilk-gorsel.jpg mutlaka yüklenmelidir.
+
+
+SON DATASHEET REVİZESİ:
+- Dolum makinesi datasheet PDF dosyası assets klasörüne eklendi: assets/pascalflow-loblu-pompali-tekli-dolum-makinesi-datasheet.pdf
+- Dolum Aralığı: 5 ml – 5.000 L bilgisi ana slider, ana sayfa ürün alanı ve dolum makinesi sayfasına eklendi.
+- Kontrol: PLC Ekran bilgisi ana slider, ana sayfa ürün alanı ve dolum makinesi sayfasına eklendi.
+- Ana slider boyutu az miktarda küçültüldü.
+- Hero ilk görsel JPG olarak korunmuştur: assets/hero-slider-ilk-gorsel.jpg
