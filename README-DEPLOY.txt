@@ -20,3 +20,10 @@ Ana dosyalar:
 - assets/
 - robots.txt
 - sitemap.xml
+
+
+SON REVİZE:
+- Ana slider 1. görseli kullanıcı tarafından sağlanan fotoğraf ile değiştirildi.
+- Önceki 1. slider görseli 2. slider'a taşındı.
+- İletişim sayfasına info@pascalflow.com e-posta adresi eklendi.
+- Yeni görsel dosyası: assets/hero-slider-ilk-gorsel.png
